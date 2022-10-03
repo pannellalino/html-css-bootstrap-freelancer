@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  border: 1px solid white;
+  height: 50px;
+}
+
+.debug-2{
+  border: 1px solid black;
+  height: 50px;
+}
+
+.debug-3{
+  border: 1px solid black;
+}
+
+.sc-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+header{
+  height: 90px;
+  background-color: #222E3E;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron{
+  height: 590px;
+  background-color: #1FB18A;
+}
+
+.jumbotron,
+.portfolio,
+.about,
+.contact,
+.cta{
+  padding: 90px 0;
+}
+
+.about{
+  background-color: #1FB18A;
+}
+
+.cta{
+  background-color: #2C425A;
+}
+
+footer{
+  background-color: #212F3F;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}

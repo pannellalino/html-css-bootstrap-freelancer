@@ -14,10 +14,10 @@
   <header>
     <div class="container h-100">
       <div class="row h-100">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
           <a class="navbar-brand text_custom" href="#">START BOOTSTRAP</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,9 +45,15 @@
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <img src="img/avatar.svg" alt="avatar">
+            <div class="image w-100">
+              <img src="img/avatar.svg" alt="avatar">
+            </div>
             <h1 class="text-light fw-bold">START BOOTSTRAP</h1>
-            <span><i class="fa-solid fa-star text-light p-2 fs-4"></i></span>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="bar-left rounded me-2"></div>
+              <i class="fa-solid fa-star text-light p-2 fs-4"></i>
+              <div class="bar-right rounded ms-2"></div>
+            </div>
             <div class="text text-light p-2 fs-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
           </div>
         </div>
@@ -59,33 +65,35 @@
         <div class="row">
           <div class="col">
             <h2 class="fw-bold pt-5">PORTFOLIO</h2>
-            <span><i class="fa-solid fa-star pt-2 fs-4"></i></span>
+            <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+              <div class="bar-left-b rounded me-2"></div>
+              <i class="fa-solid fa-star fs-4"></i>
+              <div class="bar-right-b rounded ms-2"></div>
+            </div>
           </div>
         </div>
       </div>
        <div class="container">
-        <div class="row mt-4 mb-4">
-         <div class="col-md-6 col-lg-4">
+        <div class="row mb-4">
+         <div class="col-md-6 col-lg-4 mb-4">
           <img src="img/cabin.png" class="w-100 rounded" alt="cabin">
          </div>
-         <div class="col-md-6 col-lg-4">
+         <div class="col-md-6 col-lg-4 mb-4">
           <img src="img/cake.png" class="w-100 rounded" alt="cake">
          </div>
-         <div class="col-md-6 col-lg-4">
+         <div class="col-md-6 col-lg-4 mb-4">
           <img src="img/circus.png" class="w-100 rounded" alt="circus">
          </div>     
-        </div>
-        <div class="row mt-4 mb-4">
-          <div class="col-md-6 col-lg-4">
-           <img src="img/game.png" class="w-100 rounded" alt="game">
-          </div>
-          <div class="col-md-6 col-lg-4">
-           <img src="img/safe.png" class="w-100 rounded" alt="safe">
-          </div>
-          <div class="col-md-6 col-lg-4">
-           <img src="img/submarine.png" class="w-100 rounded" alt="submarine">
-          </div>     
+         <div class="col-md-6 col-lg-4 mb-4">
+          <img src="img/game.png" class="w-100 rounded" alt="game">
          </div>
+         <div class="col-md-6 col-lg-4 mb-4">
+          <img src="img/safe.png" class="w-100 rounded" alt="safe">
+         </div>
+         <div class="col-md-6 col-lg-4 mb-4">
+          <img src="img/submarine.png" class="w-100 rounded" alt="submarine">
+         </div>
+        </div>
       </div>
     </section>
 
@@ -94,7 +102,11 @@
         <div class="row">
           <div class="col">
             <h2 class="fw-bold pt-5 text-light">ABOUT</h2>
-            <span><i class="fa-solid fa-star pt-2 fs-4 text-light"></i></span>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="bar-left rounded me-2"></div>
+              <i class="fa-solid fa-star text-light p-2 fs-4"></i>
+              <div class="bar-right rounded ms-2"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -119,8 +131,12 @@
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <h2 class="fw-bold pt-5">ABOUT</h2>
-            <span><i class="fa-solid fa-star pt-2 fs-4"></i></span>
+            <h2 class="fw-bold pt-5">CONTACT</h2>
+            <div class="d-flex justify-content-center align-items-center mt-3 mb-3">
+              <div class="bar-left-b rounded me-2"></div>
+              <i class="fa-solid fa-star fs-4"></i>
+              <div class="bar-right-b rounded ms-2"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -156,16 +172,34 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 debug"></div>
-          <div class="col-md-4 debug"></div>
-          <div class="col-md-4 debug"></div>
+          <div class="col-md-4 text-center">
+            <h4 class="text-light mt-5">LOCATION</h4>
+            <span class="text-light d-block mb-5">2215 John Daniel Drive Clark, MO 54243</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <h4 class="text-light mt-5">AROUND THE WEB</h4>
+            <span class="text-light d-block mb-5">
+              <i class="fa-brands fa-facebook-f border border-light rounded-circle"></i>
+              <i class="fa-brands fa-google-plus-g border border-light rounded-circle"></i>
+              <i class="fa-brands fa-twitter border border-light rounded-circle"></i>
+              <i class="fa-brands fa-linkedin-in border border-light rounded-circle"></i>
+            </span>
+          </div>
+          <div class="col-md-4 text-center">
+            <h4 class="text-light mt-5">ABOUT FREELANCER</h4>
+            <span class="text-light d-block mb-5">Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="text-decoration-none">Start Bootstrap</a>.</span>
+          </div>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="container">
+      <div class="container h-100 d-flex justify-content-center align-items-center">
         <div class="row">
-          <div class="col debug"></div>
+          <div class="col">
+            <div class="copyright text-light">
+              Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+            </div>
+          </div>
         </div>
       </div>
     </div>

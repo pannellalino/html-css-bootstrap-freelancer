@@ -1,8 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .debug{
   border: 1px solid white;
@@ -47,13 +43,11 @@ header{
   background-color: #1FB18A;
 }
 
-.cta{
+.footer-top{
   background-color: #2C425A;
 }
 
-footer{
+.footer-bottom{
   background-color: #212F3F;
   height: 90px;
-  display: flex;
-  align-items: center;
 }

@@ -1,6 +1,5 @@
 .debug{
   border: 1px solid white;
-  height: 50px;
 }
 
 .debug-2{
@@ -12,7 +11,7 @@
   border: 1px solid black;
 }
 
-.sc-container{
+.lp-container{
   width: 60%;
   margin: 0 auto;
 }
@@ -29,19 +28,20 @@ header{
 }
 
 .jumbotron{
-  height: 590px;
+  height: 490px;
   background-color: #1FB18A;
 }
 
-.jumbotron,
-.portfolio,
-.about,
-.contact,
-.cta{
-  padding: 90px 0;
+.jumbotron img{
+  width: 20%;
+  padding: 60px 0 20px 0;
 }
 
 .about{
+  background-color: #1FB18A;
+}
+
+.btn-success{
   background-color: #1FB18A;
 }
 
